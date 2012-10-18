@@ -1,3 +1,9 @@
+# Magic8BallViewController
+#   - has a background image
+#   - has a label
+#   - has a single-tap gesture recognizer
+#   - updates the label when the answer is shown
+
 class Magic8BallViewController < UIViewController
   attr_reader :label
 

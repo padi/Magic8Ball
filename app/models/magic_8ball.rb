@@ -1,3 +1,8 @@
+# a RubyMotion Model can be a PORO
+# Magic8Ball
+#   - has 4 answers
+#   - generates a random answer
+
 class Magic8Ball
   attr_reader :answers
 
@@ -20,6 +25,7 @@ private
     ]
   end
 end
+
   # def loadAnswers
   #   answerFile = NSBundle.mainBundle.pathForResource('answers', ofType:'json')
 
